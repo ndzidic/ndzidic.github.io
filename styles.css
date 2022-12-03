@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex; 
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+
+header-box {
+    text-align: center;
+    color: whitesmoke;
+    background: #1e9577;
+    padding: 2rem 1rem 0rem 1rem;
+    display: flex;
+    justify-content: flex-end;
+    grid-row: 1/2;
+    grid-column: 1/3;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+  }
+  
+  .nav-menu {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    background: #1e9577;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin: 0px 10px;
+  }
+  
+  .nav-item:hover .nav-link {
+    color: #cff27e;
+  }
+  
+
+.logo {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    background-color: #cbc7de;
+    display: flex;
+    align-content: center;
+}
+
+.browse {
+    text-align: center;
+    padding: 2rem 0rem 2rem 2rem;
+    padding: 1
+}
+
+
+
+  .index-one {
+    font-size: 4.5 rem;
+    text-align: center;
+    font-family: cantanta;
+    color: #1e9577;
+  }
+
+  .index-one img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .index-one h1{
+    font-size: 4rem;;
+  }
+
+  .index-one h2{
+    font-size: 2rem;
+    color: black;
+
+  }
+
+  .index-two {
+    color: black;
+    background-color: #f2f3f9;
+  }
+
+  .index-two h3{
+    color: #1e9577;
+    padding: 1rem 1rem 1rem 1rem;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+  }
+
+
+  .footer-clean {
+    padding:50px 0;
+    background:  #1e9577;
+    color:white;
+  }
+
+  footer h2{
+    font-size: 2rem;
+    font-family: cantanta;
+    text-align: center;
+    padding: 1rem 2rem 1rem 1rem;
+  }
+  
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:1;
+  }
+  
+  .footer-clean ul a:hover {
+    color: #cff27e;
+  }
+  
+
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
